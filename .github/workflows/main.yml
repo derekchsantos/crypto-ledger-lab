@@ -1,0 +1,28 @@
+name: Truffle CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v3
+
+    - name: Configurar Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+
+    - name: Instalar dependências
+      run: |
+        npm install -g truffle
+        npm install
+
+    - name: Rodar Testes do Truffle
+      run: truffle test
