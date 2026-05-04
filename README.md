@@ -5,9 +5,7 @@
 ![Banner](./assets/banner.png)
 
 Este repositório contém um ecossistema **Web3 Full Stack** completo, operando com a **Fsociety Coin (FSC)**. O projeto foi desenvolvido em ambiente isolado (WSL2) e integra contratos inteligentes de governança e ativos digitais.
-
-![Status](https://shields.io)
-![Currency](https://shields.io) 
+ 
 
 ---
 
