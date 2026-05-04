@@ -2,14 +2,16 @@
 
 > "Our democracy has been hacked. Control is an illusion."
 
-![Fsociety Coin Banner](./assets/fsociety_coin_banner.jpg)
+![Fsociety Coin Banner](./assets/fsociety_coin_banner.png)
 
 Este repositório contém um ecossistema **Web3 Full Stack** completo, operando com a **Fsociety Coin (FSC)**. O projeto foi desenvolvido em ambiente isolado (WSL2) e integra contratos inteligentes de governança e ativos digitais.
 
 ![Status](https://shields.io)
 ![Currency](https://shields.io)
 
-## PROVA_DE_CONCEITO (SCREENSHOTS)
+---
+
+## 🖥️ROVA_ DE CONCEITO (SCREENSHOTS)
 
 Abaixo estão os registros reais da operação do sistema, integrando o nó da blockchain com a interface de usuário.
 
@@ -18,20 +20,22 @@ Abaixo estão os registros reais da operação do sistema, integrando o nó da b
 *Visualização do terminal com saldo de **10.000 FSC** e monitor de logs ativos.*
 
 ### 2. Protocolo de Transferência de Recursos
-![Transferência](./assets/transfer_protocol.jpg.png)
+![Transferência](./assets/transfer_protocol.png)
 *Execução confirmada de envio de ativos FSC entre identidades da rede.*
 
 ### 3. Interação com o Smart Contract (MetaMask)
-![MetaMask](./assets/painel_operacional.jpg.png)
+![MetaMask](./assets/painel_operacional.png)
 *Interface de assinatura digital e validação de transações via carteira descentralizada.*
 
-## ARQUITETURA_DO_SISTEMA
+---
+
+## ARQUITETURA DO SISTEMA
 - **Fsociety Coin (FSC):** Token ERC-20 desenvolvido com padrões OpenZeppelin para segurança máxima.
 - **Ledger Message:** Contrato inteligente para registro imutável de mensagens na rede.
 - **Frontend Interativo:** Terminal em React.js que "ouve" a blockchain em tempo real (auto-polling).
 - **CI/CD:** Pipeline automatizado no GitHub Actions para validação de código e contratos.
 
-## INSTRUÇÕES_DE_INICIALIZAÇÃO
+## NICIALIZAÇÃO_ DO PROTOCOLO
 
 1. **Inicie o nó da fsociety:**
    ```bash
@@ -48,3 +52,4 @@ Abaixo estão os registros reais da operação do sistema, integrando o nó da b
 
 ---
 _Status: **SECURE_DECENTRALIZED_ACTIVE**_
+
