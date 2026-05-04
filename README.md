@@ -1,4 +1,4 @@
-# FSOCIETY_BLOCKCHAIN_MONITOR
+# FSOCIETY BLOCKCHAIN MONITOR
 
 > "Our democracy has been hacked. Control is an illusion."
 
