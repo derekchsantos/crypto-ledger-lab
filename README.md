@@ -49,4 +49,4 @@ Abaixo estão os registros reais da operação do sistema, integrando o nó da b
    ```
 
 ---
-_Status: **SECURE_DECENTRALIZED_ACTIVE**_
+_Status: **SECURE DECENTRALIZED ACTIVE**_
