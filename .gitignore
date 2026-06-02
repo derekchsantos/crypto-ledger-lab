@@ -1,4 +1,27 @@
+# Dependências e Builds 
 node_modules/
 build/
+dist/
+out/
+artifacts/
+cache/
+
+# Segurança e Chaves Privadas
 .env
+.env.local
+.env.production
+*.env
+*.key
+*.pem
+private.json
+
+# Caches de Ferramentas Web3
+.hardhat/
+foundry.lock
+
+# Arquivos de Sistema Operacional e Editores
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
