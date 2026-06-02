@@ -1,3 +1,5 @@
+//@author Derek Christopher
+
 const FsocietyToken = artifacts.require("FsocietyToken");
 
 contract("FsocietyToken", (accounts) => {
